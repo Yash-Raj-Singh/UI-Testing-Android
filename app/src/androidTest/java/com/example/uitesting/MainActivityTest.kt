@@ -30,7 +30,6 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4ClassRunner::class)
 class MainActivityTest{
-
     @get:Rule
     val intentsTestsRule = IntentsTestRule(MainActivity::class.java)
 
